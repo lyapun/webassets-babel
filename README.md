@@ -1,24 +1,19 @@
-===============================
-Webassets Babel
-===============================
+# Webassets Babel
 
 Babel filter for Webassets
 
-Description
------------
+## Description
 
 Turn your ES6+ code into ES5 friendly code using https://babeljs.io/
 
-Installation
-------------
+## Installation
 
 ```
 npm install -g babel
 pip install webassets-babel
 ```
 
-Using
------
+## Using
 
 First register filter:
 
