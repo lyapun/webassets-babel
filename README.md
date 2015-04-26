@@ -28,3 +28,5 @@ Then you can use it in your build process:
 ```
 Bundle('file.js', filters='babel')
 ```
+
+You can change babel binary using BABEL_BIN setting of your application.
