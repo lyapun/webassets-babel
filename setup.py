@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='webassets-babel',
-    version='0.1.1',
+    version='0.1.2',
     description="Babel filter for Webassets",
     long_description=readme + '\n\n' + history,
     author="Taras Lyapun",
