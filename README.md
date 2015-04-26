@@ -1,6 +1,6 @@
 # Webassets Babel
 
-Babel filter for Webassets
+Babel filter for [Webassets](https://webassets.readthedocs.org/en/latest/)
 
 ## Description
 
