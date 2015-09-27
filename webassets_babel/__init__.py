@@ -25,6 +25,8 @@ class BabelFilter(Filter):
     may define the ``BABEL_BIN`` setting.
     """
     name = 'babel'
+    
+    max_debug_level = None
 
     options = {
         'binary': 'BABEL_BIN',
