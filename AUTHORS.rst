@@ -11,3 +11,4 @@ Contributors
 ------------
 
 * Bastian Hoyer <@bastianh>
+* Brett <@brettatoms>
