@@ -25,7 +25,7 @@ class BabelFilter(Filter):
     may define the ``BABEL_BIN`` setting.
     """
     name = 'babel'
-    
+
     max_debug_level = None
 
     options = {
@@ -47,8 +47,8 @@ class BabelFilter(Filter):
         stdout, stderr = proc.communicate()
         if proc.returncode != 0:
             raise FilterError(
-                'babel: subprocess had error: stderr=%s,'
-                'stdout=%s, returncode=%s' .format(
+                'babel: subprocess had error: stderr={},'
+                'stdout={}, returncode={}'.format(
                     stderr, stdout, proc.returncode))
 
         with open(output_filename, 'r') as f:
